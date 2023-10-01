@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistationActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/guni_pink_logo"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginHorizontal="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="User Full Name"/>
+
+                <EditText
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+                s
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"/>
+
+                <EditText
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="City"/>
+
+                <EditText
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="Email"/>
+
+                <EditText
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="Password"/>
+
+                <EditText
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Confirm Password"/>
+
+                <EditText
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="30dp"
+        android:layout_marginTop="-20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do not have an account?"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/Loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="LOGIN"
+            android:textColor="	#AA336A"
+            android:backgroundTint="#00FFFFFF"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
